@@ -1,7 +1,9 @@
-import { askGemini } from "@/app/actions/askGemini";
+import Input from "./components/Input";
 
 export default async function Page() {
-  const result = await askGemini("Explain me all about bolt.new.");
-
-  return <p>{result}</p>;
+  return <>
+    <div className="bg-neutral-900">
+      <Input/>
+    </div>
+  </>;
 }
