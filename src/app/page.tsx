@@ -1,9 +1,11 @@
 import Input from "./components/Input";
 
-export default async function Page() {
-  return <>
-    <div className="bg-neutral-900">
-      <Input/>
+const Page = () => {
+  return (
+    <div className="w-full bg-neutral-900">
+      <Input />
     </div>
-  </>;
-}
+  );
+};
+
+export default Page;
